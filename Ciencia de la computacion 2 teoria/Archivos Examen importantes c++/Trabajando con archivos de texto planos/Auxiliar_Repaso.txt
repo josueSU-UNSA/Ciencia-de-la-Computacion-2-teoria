@@ -1,0 +1,13 @@
+With polymorphism, you can design and implement systems that are easily extensible—
+
+new classes can be added with little or no modification to the general portions of the pro-
+gram, as long as the new classes are part of the inheritance hierarchy that the program pro-
+cesses generally. The only parts of a program that must be altered to accommodate new
+
+classes are those that require direct knowledge of the new classes that you add to the hier-
+archy. For example, if we create class Tortoise that inherits from class Animal (which
+
+might respond to a move message by crawling one inch), we need to write only the Tor-
+toise class and the part of the simulation that instantiates a Tortoise object. The portions
+
+of the simulation that process each Animal generally can remain the same

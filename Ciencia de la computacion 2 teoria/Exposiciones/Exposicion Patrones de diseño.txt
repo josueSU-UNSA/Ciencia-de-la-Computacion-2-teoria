@@ -1,0 +1,30 @@
+			Exposicion Patrones de diseño
+*Un patron de diseño es una forma reutilizable de resolver un problema comun en el desarrollo del software
+
+-Ventaja:
+
+	*Nos ayuda a resolver un problema, ademas de tener la certeza que el codigo es valido por lo mismo que esta muy testeado
+	*Nos ayuda a una mayor fluidez en el desarrollo
+
+-Tipos:
+
+	1*Creacionales:
+		*Nos ayuda a solucionar problemas de creacion de instancias,nos encapsula y abstrae dicha creacion de instancias.
+		*Los patrones creacionales proporcionan mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización de código existente.
+	2*Estructurales:
+		*Los patrones estructurales explican cómo ensamblar objetos y clases en estructuras más grandes a la vez que se mantiene la flexibilidad y eficiencia de la estructura.
+		*Describen como usar estructura de datos complejas a partir de elementos mas simples.
+	3*De Comportamiento:
+		*Los patrones de comportamiento se encargan de una comunicación efectiva y la asignación de responsabilidades entre objetos.
+		*Especifican el comportamiento entre objetos del programa.
+-En esta oportunidad los patrones que a continuacion se presentara son los pertenecientes a los creacionales:
+	1*Prototype:
+		*Crear una nueva instancia con los valores clonados o copiados de otra instancia.
+	2*Singleton:
+		*asegurarnos de que una clase tenga una única instancia, a la vez que proporciona un punto de acceso global a dicha instancia.
+	3* Abstract Factory:
+		*Abstract Factory es un patrón de diseño creacional que nos permite producir familias de objetos relacionados sin especificar sus clases concretas.
+	4* Factory Method:
+		*Factory Method es un patrón de diseño creacional que proporciona una interfaz para crear objetos en una superclase, mientras permite a las subclases alterar el tipo de objetos que se crearán.
+	5* Builder:
+		*Builder es un patrón de diseño creacional que nos permite construir objetos complejos paso a paso. El patrón nos permite producir distintos tipos y representaciones de un objeto empleando el mismo código de construcción.
